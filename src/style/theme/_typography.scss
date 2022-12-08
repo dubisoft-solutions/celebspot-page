@@ -1,0 +1,22 @@
+p {
+    margin-bottom: 0;
+    line-height: 1.25;
+}
+
+@include media-breakpoint-down(md) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2.375rem;
+    }
+    p {
+        font-size: .75rem;
+    }
+}
+
+@include media-breakpoint-up(xxxxl) {
+    p {
+        font-size: 1.25rem!important;
+    }
+}

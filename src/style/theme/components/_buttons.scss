@@ -1,0 +1,29 @@
+.btn-danger {
+    color: $white;
+    background: $gradient!important;
+    min-width: 18.375rem;
+    border-color: #FF3038;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: $box-shadow;
+        color: $white;
+        background-color: $gradient;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: 1rem;
+        border-radius: 1.438rem;
+        padding: .75rem 1rem;
+        min-width: 14.625rem;
+    }
+}
+
+.btn-link {
+    font-size: .75rem;
+    @include media-breakpoint-down(md) {
+        font-size: .875rem;
+    }
+    @include media-breakpoint-up(xxxxl) {
+        font-size: 1.25rem;
+    }
+}

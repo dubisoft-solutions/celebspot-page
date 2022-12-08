@@ -1,0 +1,89 @@
+.form-control {
+    border-top-left-radius: $border-radius!important;
+    border-bottom-left-radius: $border-radius!important;
+    border-left: 0!important;
+    &::placeholder {
+        color: $white;
+    }
+    &:focus {
+        box-shadow: none;
+        border-color: transparent;
+    }
+}
+
+.input-group-text {
+    position: relative;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-right: 0!important;
+    &::after {
+        content: "";
+        display: inline;
+        width: .1rem;
+        height: 1.75rem;
+        background-color: $light-255;
+        border-radius: .188rem;
+        position: absolute;
+        top: .25rem;
+        right: 0;
+    }
+}
+
+.contact-form {
+    .form-control {
+        font-size: .75rem;
+        color: $gray-159;
+        background-color: $light-255!important;
+        border-radius: 0!important;
+        border: none;
+        padding: 1rem 1.25rem;
+        &::placeholder {
+            color: $gray-159;
+            font-size: .75rem;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.invalid-feedback {
+    font-weight: 300;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    box-shadow: none;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: transparent;
+    background-image: none;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    border-color: transparent;
+    background-image: none;
+}
+
+.invalid-feedback {
+    text-align: start;
+    padding-left: 3rem;
+    margin-top: 0;
+}
+
+@include media-breakpoint-down(md) {
+    .input-group-text {
+        padding: .565rem .5rem;
+    }
+    .form-control {
+        border: none;
+        font-size: .688rem;
+        padding: .565rem .5rem;
+        &::placeholder {
+            font-size: .688rem;
+        }
+    }
+}

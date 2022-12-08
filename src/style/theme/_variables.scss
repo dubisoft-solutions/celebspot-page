@@ -1,0 +1,90 @@
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Poppins" !default;
+$white: #FFFFFF;
+$light-255:#F5F5FF;
+$red-87: #FF5057;
+$red-76: #FF3F4C;
+$red-86: #FF4D56;
+$red-142: #FF968E;
+$gray: #CCCCCC;
+$gray-232: #E8E8E8;
+$gray-159: #9F9F9F;
+$black-83: #2A2A53;
+$black-29: #180D10;
+$black-62: #241F3E;
+$black-83: #2A2A53;
+$black-58: #3A3A3A;
+$black-71: #243047;
+$black-27: #0F0B1B;
+$black-25: #090919;
+$gradient: linear-gradient(90deg, #FF3A49 0%, #FF545B 100%);
+// font sizes
+$font-size-base: .875rem;
+$line-height-base: 1;
+$line-height-sm: 1.5;
+$h1-font-size: 5rem;
+$h2-font-size: 4rem;
+$headings-line-height: 1;
+$headings-font-weight: 700;
+$font-weight-medium: 500;
+$font-sizes: ( 1: 2.5rem, 2: 1.5rem, 3: 1rem, 4: .875rem, 5: .75rem);
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 6: $spacer * 5.625);
+// box-shadow
+$box-shadow: 0px 4.32166px 4.32166px rgba(0, 0, 0, 0.25),
+inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14) !default;
+// border
+$border-radius: .25rem;
+$border-radius-sm: .625rem;
+$border-radius-md: 1.813rem;
+// buttons
+$btn-padding-y: 1.25rem;
+$btn-padding-x: 2rem;
+$btn-font-size: 1.25rem;
+$btn-font-weight: 600;
+$btn-line-height: 1rem;
+$btn-border-width: 3px;
+$btn-border-radius: $border-radius-md;
+$btn-color: $white!default;
+$btn-bg: $gradient!default;
+$btn-box-shadow: $box-shadow;
+$btn-link-color: $white;
+$btn-link-hover-color: $gray-232;
+// dropdown
+$dropdown-padding-x: .625rem;
+$dropdown-padding-y: .375rem;
+$dropdown-item-padding-y: .5rem;
+$dropdown-item-padding-x: .75rem;
+$dropdown-border-radius: $border-radius-sm;
+$dropdown-font-size: .75rem;
+$dropdown-bg: transparent!default;
+$dropdown-color: $white!default;
+$dropdown-link-color: $white;
+// break points
+$grid-breakpoints: (xxc:0, xs: 390px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1548px, xxxxl: 1920px, xxxxxl: 2560px);
+// containers
+$container-max-widths: (xc: 355px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
+// form-control
+$input-font-size: .813rem;
+$input-line-height: 1;
+$input-font-weight: 300;
+$input-color: $white;
+$input-bg: #551F32;
+$input-border-color: #551F32;
+$input-padding-y: .46rem;
+$input-padding-x: .75rem;
+$input-group-addon-color: $light-255;
+$input-group-addon-border-color: transparent;
+$input-group-addon-bg: transparent;
+$form-feedback-invalid-color: $red-142;
+$form-feedback-icon-invalid-color: $red-142;
+$form-feedback-font-size: .875rem;
+$input-box-shadow: none;
+$input-focus-box-shadow: none;
+// modal
+$modal-content-bg: $white;
+$modal-backdrop-bg: #090919!default;
+$modal-backdrop-opacity: .8;
+$modal-dialog-margin: 2.375rem;
+$modal-content-border-radius: 0!default;

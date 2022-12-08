@@ -1,0 +1,126 @@
+@import "bootstrap-select/sass/variables";
+@import "bootstrap-select/sass/bootstrap-select";
+.bootstrap-select {
+    .dropdown-toggle.btn-light {
+        border-radius: $border-radius-sm;
+        background-color: transparent;
+        padding: .63rem .75rem;
+        font-weight: 400;
+        font-size: .813rem;
+        color: $white;
+        &::placeholder {
+            font-weight: 400;
+            color: $white;
+            @include media-breakpoint-down(md) {
+                font-size: .438rem;
+            }
+        }
+        &:focus {
+            outline: none!important;
+            outline-offset: none!important;
+            box-shadow: none;
+        }
+        &.show,
+        &:active,
+        &:focus,
+        &:hover {
+            color: $white!important;
+            background-color: transparent!important;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: .438rem;
+            padding: .531rem .688rem;
+        }
+    }
+    .dropdown-toggle {
+        &.show {
+            &:after {
+                color: $red-87;
+                transform: rotate(180deg);
+            }
+        }
+        &::after {
+            color: $red-87;
+        }
+    }
+    &>.dropdown-menu {
+        background: #090919;
+        opacity: 0.7;
+        border: none;
+        padding: .625rem 0;
+        padding-right: .25rem;
+        border-radius: $border-radius-sm;
+        ul {
+            background-color: $black-29;
+            max-height: 8.313rem;
+            overflow-y: auto;
+            padding-left: 0;
+            margin-bottom: 0;
+            &.show {
+                color: $white;
+                background-color: $black-29;
+                border: none;
+            }
+            .dropdown-item {
+                font-weight: $font-weight-medium;
+                color: $white;
+                font-size: .75rem;
+                &.active,
+                &:hover,
+                &:focus {
+                    color: $white;
+                    background-color: $black-62;
+                    border-radius: $border-radius;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: .5rem;
+                    padding: .35rem .25rem;
+                }
+                @include media-breakpoint-up(xxxxl) {
+                    font-size: 1rem;
+                }
+            }
+        }
+        ul::-webkit-scrollbar {
+            width: .563rem;
+            @include media-breakpoint-down(md) {
+                width: .25rem;
+            }
+        }
+        ul::-webkit-scrollbar-track {
+            background-color: $black-83;
+            border-radius: $border-radius;
+        }
+        ul::-webkit-scrollbar-thumb {
+            background: $red-76;
+            border-radius: $border-radius;
+        }
+        @include media-breakpoint-down(md) {
+            padding: .5rem 0;
+        }
+    }
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder {
+    font-size: .75rem;
+    color: $green;
+    @include media-breakpoint-down(md) {
+        font-size: .438rem;
+    }
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    font-size: .75rem;
+    color: $white;
+    @include media-breakpoint-down(md) {
+        font-size: .438rem;
+    }
+}
+
+.bootstrap-select.is-valid .dropdown-toggle,
+.was-validated .bootstrap-select select:valid+.dropdown-toggle {
+    border-color: $white!important;
+}

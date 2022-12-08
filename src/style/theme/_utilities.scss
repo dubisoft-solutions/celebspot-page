@@ -1,0 +1,71 @@
+.fw-medium {
+    font-weight: $font-weight-medium;
+}
+
+.text-secondary {
+    color: $gray!important;
+}
+
+.text-danger {
+    color: $red-87!important;
+}
+
+.lh-sm {
+    line-height: $line-height-sm;
+}
+
+.w-31 {
+    width: 1.938rem;
+}
+
+.h-31 {
+    height: 1.938rem;
+}
+
+.w-44 {
+    width: 2.75rem;
+}
+
+.h-44 {
+    height: 2.75rem;
+}
+
+textarea {
+    resize: none;
+}
+
+@include media-breakpoint-down(md) {
+    .fs-1 {
+        font-size: 1.25rem!important;
+    }
+    .fs-2 {
+        font-size: 1.25rem!important;
+    }
+    .fs-3 {
+        font-size: .688rem!important;
+    }
+    .fs-4 {
+        font-size: .875rem!important;
+    }
+    .fs-5 {
+        font-size: .625rem!important;
+    }
+    .fs-6 {
+        font-size: .688rem!important;
+    }
+    .fs-7 {
+        font-size: .75rem!important;
+    }
+    .pb-6 {
+        padding-bottom: 4.875rem;
+    }
+    .w-44 {
+        width: 2.313rem;
+    }
+    .h-44 {
+        height: 2.313rem;
+    }
+    .pt-6 {
+        padding-top: 1.5rem!important;
+    }
+}

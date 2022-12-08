@@ -43,9 +43,16 @@
         &::placeholder {
             color: $gray-159;
             font-size: .75rem;
+            @include media-breakpoint-down(md) {
+                font-size: .625rem;
+            }
         }
         &:focus {
             box-shadow: none;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: .625rem;
+            padding: .47rem .75rem;
         }
     }
 }

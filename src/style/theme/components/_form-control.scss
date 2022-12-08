@@ -20,12 +20,15 @@
         content: "";
         display: inline;
         width: .1rem;
-        height: 1.75rem;
+        height: 2.5rem;
         background-color: $light-255;
         border-radius: .188rem;
         position: absolute;
         top: .25rem;
         right: 0;
+        @include media-breakpoint-down(md) {
+            height: 1.5rem;
+        }
     }
 }
 
@@ -76,12 +79,12 @@
 
 @include media-breakpoint-down(md) {
     .input-group-text {
-        padding: .565rem .5rem;
+        padding: .5rem;
     }
     .form-control {
         border: none;
         font-size: .688rem;
-        padding: .565rem .5rem;
+        padding: .5rem;
         &::placeholder {
             font-size: .688rem;
         }

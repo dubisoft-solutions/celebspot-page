@@ -26,11 +26,12 @@ $font-icons-family-name: "IconsFont";
 }
 
 $icon-name-check: "\E001"; 
-$icon-name-flag: "\E002"; 
-$icon-name-letter: "\E003"; 
-$icon-name-mail: "\E004"; 
-$icon-name-message: "\E005"; 
-$icon-name-mobile: "\E006"; 
+$icon-name-close: "\E002"; 
+$icon-name-flag: "\E003"; 
+$icon-name-mail-open: "\E004"; 
+$icon-name-mail: "\E005"; 
+$icon-name-message: "\E006"; 
+$icon-name-mobile: "\E007"; 
 
 
 @function icon-char($filename) {
@@ -39,20 +40,23 @@ $icon-name-mobile: "\E006";
 	@if $filename == check {
 		$char: "\E001";
 	}
-	@if $filename == flag {
+	@if $filename == close {
 		$char: "\E002";
 	}
-	@if $filename == letter {
+	@if $filename == flag {
 		$char: "\E003";
 	}
-	@if $filename == mail {
+	@if $filename == mail-open {
 		$char: "\E004";
 	}
-	@if $filename == message {
+	@if $filename == mail {
 		$char: "\E005";
 	}
-	@if $filename == mobile {
+	@if $filename == message {
 		$char: "\E006";
+	}
+	@if $filename == mobile {
+		$char: "\E007";
 	}
 
 	@return $char;
@@ -72,11 +76,14 @@ $icon-name-mobile: "\E006";
 .icon-check {
 	@include icon(check);
 }
+.icon-close {
+	@include icon(close);
+}
 .icon-flag {
 	@include icon(flag);
 }
-.icon-letter {
-	@include icon(letter);
+.icon-mail-open {
+	@include icon(mail-open);
 }
 .icon-mail {
 	@include icon(mail);

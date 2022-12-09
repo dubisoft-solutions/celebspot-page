@@ -14684,6 +14684,7 @@ textarea.form-control-lg {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 1px 7px 3px rgba(255, 51, 57, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
   color: #FFFFFF;
   background-color: linear-gradient(90deg, #FF3A49 0%, #FF545B 100%);
+  border-color: #FF3038;
 }
 @media (max-width: 767.98px) {
   .btn-danger {

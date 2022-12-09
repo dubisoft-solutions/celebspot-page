@@ -1,7 +1,7 @@
 {
-  "name": "kiosk-markup",
+  "name": "celebspot-page",
   "version": "1.0.0",
-  "description": "Kiosk Markup",
+  "description": "celebspot page",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dubisoft-solutions/kiosk-markup.git"
+    "url": "https://github.com/dubisoft-solutions/celebspot-page.git"
   },
   "author": "Ivan Dubynets",
   "license": "ISC",

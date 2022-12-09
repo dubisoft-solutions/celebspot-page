@@ -14678,9 +14678,10 @@ textarea.form-control-lg {
   background: linear-gradient(-90deg, #FF3A49 0%, #FF545B 100%) !important;
   min-width: 18.375rem;
   border-color: #FF3038;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 1px 7px 3px rgba(255, 51, 57, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
 }
 .btn-danger:focus, .btn-danger:hover, .btn-danger:active {
-  box-shadow: 0px 4.32166px 4.32166px rgba(0, 0, 0, 0.25), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 1px 7px 3px rgba(255, 51, 57, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
   color: #FFFFFF;
   background-color: linear-gradient(90deg, #FF3A49 0%, #FF545B 100%);
 }
@@ -14792,10 +14793,20 @@ textarea.form-control-lg {
   background-image: none;
 }
 
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  border-color: transparent;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+  border-color: transparent;
+}
+
 .invalid-feedback {
   text-align: start;
   padding-right: 3rem;
-  margin-top: 0;
+  margin-top: 0.125rem;
 }
 
 @media (max-width: 767.98px) {
@@ -14875,6 +14886,11 @@ textarea.form-control-lg {
   overflow-y: auto;
   padding-right: 0;
   margin-bottom: 0;
+}
+@media (max-width: 767.98px) {
+  .dropdown-menu.dropdown-style ul {
+    max-height: 5rem;
+  }
 }
 .dropdown-menu.dropdown-style ul.show {
   color: #FFFFFF;
@@ -15433,6 +15449,11 @@ select.selectpicker {
   padding-right: 0;
   margin-bottom: 0;
 }
+@media (max-width: 767.98px) {
+  .bootstrap-select > .dropdown-menu ul {
+    max-height: 6.313rem;
+  }
+}
 .bootstrap-select > .dropdown-menu ul.show {
   color: #FFFFFF;
   background-color: #180D10;
@@ -15766,6 +15787,11 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 575.98px) {
+  .index {
+    background-image: url("../img/main-bg-mobile.png");
+  }
+}
 .index main {
   min-height: 100vh;
   display: flex;
@@ -15778,6 +15804,7 @@ p {
 @media (max-width: 767.98px) {
   .index main {
     background-image: url("../img/main-img-mobile.png");
+    background-position: left 7%;
   }
 }
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -15804,7 +15831,7 @@ p {
   .index .recaptcha-style {
     transform: scale(0.4);
     -webkit-transform: scale(0.4);
-    height: 7vh;
+    height: 5vh;
   }
 }
 .index .footer {

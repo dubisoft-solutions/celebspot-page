@@ -4,7 +4,7 @@
     .dropdown-toggle.btn-light {
         border-radius: $border-radius-sm;
         background-color: transparent;
-        padding: 1rem .75rem;
+        padding: .82rem .75rem;
         font-weight: 400;
         font-size: .75rem;
         color: $white;
@@ -102,7 +102,7 @@
 }
 
 .bootstrap-select>.dropdown-toggle.bs-placeholder {
-    font-size: .75rem;
+    font-size: 1rem;
     color: $green;
     @include media-breakpoint-down(md) {
         font-size: .5rem;
@@ -113,7 +113,7 @@
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
-    font-size: .75rem;
+    font-size: 1rem;
     color: $white;
     @include media-breakpoint-down(md) {
         font-size: .5rem;

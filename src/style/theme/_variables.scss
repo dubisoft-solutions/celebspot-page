@@ -39,9 +39,9 @@ $border-radius: .25rem;
 $border-radius-sm: .625rem;
 $border-radius-md: 1.813rem;
 // buttons
-$btn-padding-y: .82rem;
+$btn-padding-y: 1.25rem;
 $btn-padding-x: 2rem;
-$btn-font-size: 1rem;
+$btn-font-size: 1.25rem;
 $btn-font-weight: 600;
 $btn-line-height: 1rem;
 $btn-border-width: 3px;
@@ -66,13 +66,13 @@ $grid-breakpoints: (xxc:0, xs: 390px, sm: 576px, md: 768px, lg: 992px, xl: 1200p
 // containers
 $container-max-widths: (xc: 355px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
 // form-control
-$input-font-size: .75rem;
+$input-font-size: 1rem;
 $input-line-height: 1;
-$input-font-weight: 300;
+$input-font-weight: 400;
 $input-color: $white;
-$input-bg: #551F32;
-$input-border-color: #551F32;
-$input-padding-y: .9rem;
+$input-bg: #0F0215;
+$input-border-color: #0F0215;
+$input-padding-y: .5rem;
 $input-padding-x: .75rem;
 $input-group-addon-color: $light-255;
 $input-group-addon-border-color: transparent;

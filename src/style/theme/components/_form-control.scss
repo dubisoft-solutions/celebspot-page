@@ -79,10 +79,20 @@
     background-image: none;
 }
 
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: transparent;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    border-color: transparent;
+}
+
 .invalid-feedback {
     text-align: start;
     padding-left: 3rem;
-    margin-top: 0;
+    margin-top: .125rem;
 }
 
 @include media-breakpoint-down(md) {

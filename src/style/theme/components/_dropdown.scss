@@ -44,6 +44,9 @@
             overflow-y: auto;
             padding-left: 0;
             margin-bottom: 0;
+            @include media-breakpoint-down(md) {
+                max-height: 5rem;
+            }
             &.show {
                 color: $white;
                 background-color: $black-29;

@@ -14743,6 +14743,7 @@ textarea.form-control-lg {
 @media (max-width: 767.98px) {
   .input-group-text::after {
     height: 1.5rem;
+    top: 3px;
   }
 }
 
@@ -15410,7 +15411,7 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light::placeholder {
-    font-size: 0.5rem;
+    font-size: 0.688rem;
   }
 }
 .bootstrap-select .dropdown-toggle.btn-light:focus {
@@ -15424,8 +15425,8 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light {
-    font-size: 0.438rem;
-    padding: 0.531rem 0.688rem;
+    font-size: 0.688rem;
+    padding: 0.516rem 0.5rem;
   }
 }
 .bootstrap-select .dropdown-toggle.show:after {
@@ -15472,7 +15473,7 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-menu ul .dropdown-item {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     padding: 0.35rem 0.25rem;
   }
 }
@@ -15509,7 +15510,7 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-toggle.bs-placeholder {
-    font-size: 0.5rem;
+    font-size: 0.688rem;
   }
 }
 
@@ -15525,7 +15526,7 @@ select.selectpicker {
   .bootstrap-select > .dropdown-toggle.bs-placeholder:active,
   .bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
   .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
-    font-size: 0.5rem;
+    font-size: 0.688rem;
   }
 }
 

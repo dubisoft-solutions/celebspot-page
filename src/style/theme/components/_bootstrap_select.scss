@@ -12,7 +12,7 @@
             font-weight: 400;
             color: $white;
             @include media-breakpoint-down(md) {
-                font-size: .5rem;
+                font-size: .688rem;
             }
         }
         &:focus {
@@ -28,8 +28,8 @@
             background-color: transparent!important;
         }
         @include media-breakpoint-down(md) {
-            font-size: .438rem;
-            padding: .531rem .688rem;
+            font-size: .688rem;
+            padding: .516rem .5rem;
         }
     }
     .dropdown-toggle {
@@ -76,7 +76,7 @@
                     border-radius: $border-radius;
                 }
                 @include media-breakpoint-down(md) {
-                    font-size: .5rem;
+                    font-size: .75rem;
                     padding: .35rem .25rem;
                 }
                 @include media-breakpoint-up(xxxxl) {
@@ -108,7 +108,7 @@
     font-size: 1rem;
     color: $green;
     @include media-breakpoint-down(md) {
-        font-size: .5rem;
+        font-size: .688rem;
     }
 }
 
@@ -119,7 +119,7 @@
     font-size: 1rem;
     color: $white;
     @include media-breakpoint-down(md) {
-        font-size: .5rem;
+        font-size: .688rem;
     }
 }
 

@@ -14690,7 +14690,7 @@ textarea.form-control-lg {
   .btn-danger {
     font-size: 1rem;
     border-radius: 1.438rem;
-    padding: 0.75rem 1rem;
+    padding: 0.85rem 1rem;
     min-width: 13.625rem;
   }
 }
@@ -14877,8 +14877,7 @@ textarea.form-control-lg {
 }
 
 .dropdown-menu.dropdown-style {
-  background: #090919;
-  opacity: 0.7;
+  background: rgba(9, 9, 25, 0.9);
   min-width: 0;
   padding: 0.75rem 0;
   padding-left: 0.5rem;
@@ -14896,7 +14895,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu.dropdown-style ul.show {
   color: #FFFFFF;
-  background-color: #180D10;
+  background: rgba(9, 9, 25, 0.9);
   border: none;
 }
 .dropdown-menu.dropdown-style ul .dropdown-item {
@@ -15437,15 +15436,13 @@ select.selectpicker {
   color: #FF5057;
 }
 .bootstrap-select > .dropdown-menu {
-  background: #090919;
-  opacity: 0.7;
+  background: rgba(9, 9, 25, 0.9);
   border: none;
   padding: 0.625rem 0;
   padding-left: 0.25rem;
   border-radius: 0.625rem;
 }
 .bootstrap-select > .dropdown-menu ul {
-  background-color: #180D10;
   max-height: 8.313rem;
   overflow-y: auto;
   padding-right: 0;
@@ -15458,23 +15455,22 @@ select.selectpicker {
 }
 .bootstrap-select > .dropdown-menu ul.show {
   color: #FFFFFF;
-  background-color: #180D10;
   border: none;
 }
 .bootstrap-select > .dropdown-menu ul .dropdown-item {
   font-weight: 500;
   color: #FFFFFF;
-  font-size: 0.75rem;
+  font-size: 0.813rem;
 }
 .bootstrap-select > .dropdown-menu ul .dropdown-item.active, .bootstrap-select > .dropdown-menu ul .dropdown-item:hover, .bootstrap-select > .dropdown-menu ul .dropdown-item:focus {
   color: #FFFFFF;
-  background-color: #241F3E;
+  background-color: #2A2A53;
   border-radius: 0.25rem;
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-menu ul .dropdown-item {
-    font-size: 0.75rem;
-    padding: 0.35rem 0.25rem;
+    font-size: 0.813rem;
+    padding: 0.35rem 0.75rem;
   }
 }
 @media (min-width: 1920px) {
@@ -15493,14 +15489,17 @@ select.selectpicker {
 .bootstrap-select > .dropdown-menu ul::-webkit-scrollbar-track {
   background-color: #2A2A53;
   border-radius: 0.25rem;
+  opacity: 1;
 }
 .bootstrap-select > .dropdown-menu ul::-webkit-scrollbar-thumb {
   background: #FF3F4C;
   border-radius: 0.25rem;
+  opacity: 1;
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-menu {
     padding: 0.5rem 0;
+    padding-left: 0.25rem;
   }
 }
 

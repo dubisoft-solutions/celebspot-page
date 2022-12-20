@@ -14777,6 +14777,11 @@ textarea.form-control-lg {
 .invalid-feedback {
   font-weight: 300;
 }
+@media (max-width: 767.98px) {
+  .invalid-feedback {
+    font-size: 0.75rem;
+  }
+}
 
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {

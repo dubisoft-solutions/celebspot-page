@@ -14773,6 +14773,9 @@ textarea.form-control-lg {
     padding: 0.47rem 0.75rem;
   }
 }
+.contact-form .invalid-feedback {
+  padding-right: 0;
+}
 
 .invalid-feedback {
   font-weight: 300;

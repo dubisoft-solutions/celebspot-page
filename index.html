@@ -41,7 +41,7 @@
                         </h1>
                         <p class="text-white fs-3 mb-lg-5 mb-4 pb-lg-3 pb-2 me-lg-0 me-5">If you wish to unsubscribe, please provide us with your e-mail and <span class="d-lg-block d-inline">mobile phone number. We will then send you an SMS with a link.</span></p>
 
-                        <form class="needs-validation" novalidate>
+                        <form id="subscribeForm" class="needs-validation" novalidate>
                             <div class="row mb-lg-4 mb-3">
                                 <div class="col-lg-7 col-12 order-lg-0 order-1">
                                     <div class="input-group">
@@ -193,16 +193,25 @@
                         <div class="col-lg-12 position-relative">
                             <h2 class="text-dark mb-lg-3 text-center">Contact <span class="text-danger">Us</span></h2>
                             <p class="mb-4"><span class="text-danger">How can we help?</span> Please get in touch and our expert support team will answer all your questions</p>
-                            <form class="contact-form">
+                            <form class="contact-form needs-validation" novalidate>
                                 <div class="mb-lg-4 mb-2">
-                                    <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                                    <input type="text" required class="form-control" id="inputName" placeholder="Enter your name">
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
                                 <div class="mb-lg-4 mb-2">
-                                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address" aria-describedby="emailHelp">
+                                    <input type="email" required class="form-control" id="inputEmail" placeholder="Enter your email address" aria-describedby="emailHelp">
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
 
                                 <div class="mb-lg-4 mb-3">
-                                    <textarea class="form-control" id="messageTextarea" rows="9" placeholder="Message"></textarea>
+                                    <textarea class="form-control" required id="messageTextarea" rows="9" placeholder="Message"></textarea>
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
 
                                 <div class="mb-lg-4 mb-3">
